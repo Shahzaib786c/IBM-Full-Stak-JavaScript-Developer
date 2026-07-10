@@ -1,0 +1,11 @@
+h1 {
+    color: aqua;
+    font-size: 40px;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(222, 28, 28);
+
+}
