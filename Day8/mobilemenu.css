@@ -49,7 +49,7 @@
         padding: 10px; */
     }
 
-    .navbar.open {
+    .nav-links.open {
         display: flex;
     }
 }
