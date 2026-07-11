@@ -40,26 +40,17 @@
 
 }
 
-.intro {
-    max-width: 100%;
-    height: 400px;
-    background-color: #C82758;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 .intro .name {
     width: 100%;
+    height: 350px;
+    background-color: teal;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 35px;
     flex-direction: column;
-}
-
-.intro h1 {
-    margin-bottom: 80px;
+    border-radius: 1px;
+    border: 1px solid #035252;
 }
 
 .name p {
@@ -76,12 +67,15 @@ ol {
     width: 100%;
     height: 300px;
     background-color: teal;
+    border: 1px solid #035252;
+    border-radius: 1px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     gap: 30px;
+
 }
 
 .education ol {
@@ -98,13 +92,13 @@ ol {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 5px;
 
 }
 
 .skills h1 {
-    padding: 0px 100px;
+    margin-left: 140px;
     font-size: xx-large;
 }
 
@@ -118,29 +112,35 @@ ol {
 
 .contact {
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: teal;
+    border: 1px solid #035252;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    column-gap: 10px;
 }
 
-.contact h1 {
+.contact .head {
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    border-color: 2px solid black;
 
-    font-size: xx-large;
-    margin-left: 80px;
+
 }
 
 .contact .form {
     width: 60%;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    justify-content: space-around;
 }
 
 .contact .form input {
@@ -174,8 +174,7 @@ ol {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: teal;
-}
+background-color: black;}
 
 .footer img {
     width: 75px;
@@ -186,149 +185,18 @@ ol {
 
 .footer .foologo {
     margin-left: 30px;
-    color: black;
+    color: white;
     font-size: x-large;
 }
 
 .footer .foolinks {
-    color: black;
+    color: white;
     margin-right: 30px;
     display: flex;
     gap: 90px;
 }
 
 .footer .foolinks a {
-    color: black;
+    color: white;
     text-decoration: none;
-}
-
-@media (max-width:600px) {
-    .navbar {
-        height: 80px;
-        background-color: #F2BDCD;
-
-    }
-
-    .navbar img {
-        width: 75px;
-        height: 75px;
-    }
-
-    .nav .logo {
-        margin: o;
-    }
-
-    .navbar .navlinks a {
-        margin-right: 20px;
-    }
-
-    .intro {
-        height: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .intro .name {
-        display: flex;
-        gap: 9px;
-        flex-direction: column;
-
-    }
-
-    .intro h1 {
-        margin-bottom: 40px;
-    }
-
-    .intro .name p {
-        line-height: 1.5;
-    }
-
-    ol {
-        margin-right: 140px;
-    }
-
-    .education {
-        max-height: 200px;
-    }
-
-    .education {
-        background-color: #E26D90;
-
-    }
-
-    .education ol {
-        font-size: medium;
-    }
-
-    .skills {
-        background-color: #F5CCD8;
-
-    }
-
-    .skills h1 {
-        padding: 0px 30px;
-    }
-
-    .skills ul {
-        margin-right: 30px;
-
-    }
-
-    .contact {
-        background-color: #8A757E;
-
-    }
-
-    .contact head {
-        border: none;
-    }
-
-    .contact h1 {
-        font-size: large;
-        margin-left: 40px;
-    }
-
-    .contact .form {
-        border: none;
-    }
-
-    .contact .form input {
-        width: 290px;
-        height: 35px;
-        color: black;
-    }
-
-    .contact .form textarea {
-        width: 290px;
-        height: 45px;
-        color: black;
-    }
-
-    .contact .form label {
-        margin-right: 80px;
-        color: black;
-    }
-
-    .contact .form button {
-
-        width: 290px;
-        height: 45px;
-        color: black;
-    }
-
-    .footer {
-        background-color: #F2BDCD;
-    }
-
-    .footer .foologo {
-        margin-left: 15px;
-    }
-
-    .footer .foolinks {
-        color: black;
-        margin-right: 18px;
-        display: flex;
-        gap: 20px;
-    }
 }
