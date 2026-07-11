@@ -194,16 +194,13 @@ ol {
     color: black;
     margin-right: 30px;
     display: flex;
-    gap: 90px ;
+    gap: 90px;
 }
 
 .footer .foolinks a {
     color: black;
     text-decoration: none;
 }
-
-
-
 
 @media (max-width:600px) {
     .navbar {
@@ -283,14 +280,18 @@ ol {
 
     }
 
-    .contact head {}
+    .contact head {
+        border: none;
+    }
 
     .contact h1 {
         font-size: large;
         margin-left: 40px;
     }
 
-    .contact .form {}
+    .contact .form {
+        border: none;
+    }
 
     .contact .form input {
         width: 290px;
@@ -304,13 +305,10 @@ ol {
         color: black;
     }
 
-
-
     .contact .form label {
         margin-right: 80px;
         color: black;
     }
-
 
     .contact .form button {
 
@@ -318,20 +316,19 @@ ol {
         height: 45px;
         color: black;
     }
-    .footer{
+
+    .footer {
         background-color: #F2BDCD;
     }
-    .footer img{
 
+    .footer .foologo {
+        margin-left: 15px;
     }
 
-.footer .foologo {
-    margin-left: 15px;
-}
-.footer .foolinks {
-    color: black;
-    margin-right: 18px;
-    display: flex;
-    gap: 20px ;
-}
+    .footer .foolinks {
+        color: black;
+        margin-right: 18px;
+        display: flex;
+        gap: 20px;
+    }
 }
