@@ -105,3 +105,64 @@ const square = (x) => x * x;
 console.log(square(5));
 
 
+function sum(num1, num2, num3) {
+    return num1 + num2 + num3;
+}
+console.log("Your Addition of three number sum is " + sum(12, 76, 98));
+
+
+// const thrice =(k)=>{
+//     return " Hi this is three time multiplication " + k*3;
+// }
+// thrice(4);
+
+const thrice = (k) => {
+    return k * 3;
+}
+console.log("Your three time multiplaication is: " + thrice(100));
+thrice(12);
+
+const shirts = ["POLO", "ZAMZAM", "DUA", "ARMANI", "OUTFITTER"];
+shirts.forEach((shirt) => {
+    console.log("your shirts is " + shirt);
+});
+
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const fourth = numbers.map((number) => number * 4);
+console.log(fourth);
+console.log(numbers);
+
+// let result = number * 4;
+// console.log(result);
+
+
+//map//
+// const arrs = [3, 8, 11, 4, 7, 10];
+// const twice = arrs.map((f) => {
+//     return f * 2;
+// });
+// console.log(twice);
+
+//filter//
+const arrs = [3, 8, 11, 4, 7, 10];
+const twice = arrs.filter((f) => {
+    return f % 2 == 0;
+});
+console.log(twice);
+
+
+
+const students = [
+    { name: "Sara", grade: 85 },
+    { name: "Ali", grade: 40 },
+    { name: "Mona", grade: 70 }
+];
+
+students.forEach((student) => {
+    console.log(students[0].name + " Scored " + students[0].grade);
+    console.log(students[1].name + " Scored " + students[1].grade);
+    console.log(students[2].name + " Scored " + students[2].grade);
+
+
+});

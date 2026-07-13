@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#btn1 {
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px 35px;
+    border-radius: 10px;
+}
+
+.enabled {
+    background-color: teal;
+    color: black;
+}
+
+.disabled {
+    background-color: black;
+    color: red;
+
+}
+
+.hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bolder;
+    font-size: larger;
+}

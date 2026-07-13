@@ -40,3 +40,11 @@ console.log(typeof city);
 console.log(typeof cloud);
 console.log(typeof colours);            //it show objects type instead of Array//
 console.log(typeof object);
+
+
+const change = document.querySelector("#hlo");
+// console.log(change.textContent);
+change.textContent = "My Name is Muhammad Shahzaib";
+change.style.color = "#d97706";
+change.style.fontsize = "40px";
+console.log(change.textContent);

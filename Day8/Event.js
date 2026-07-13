@@ -7,3 +7,14 @@ button.addEventListener("click", function () {
     message.textContent = "you clicked the button";
     console.log("Button Was Clicked");
 });
+
+
+function second() {
+console.log("Second");
+}
+function first() {
+console.log("First");
+second();
+console.log("Third");
+}
+first();

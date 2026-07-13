@@ -5,45 +5,64 @@
 }
 
 .nav {
-    width: 100%;
-    height: 70px;
-    background-color: black;
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 20px;
+    background: darkkhaki;
 }
 
 .nav .logo {
-    color: white;
     font-size: larger;
     font-family: sans-serif;
     margin-left: 15px;
 }
 
-.nav .links {
+.nav-links {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 22px;
+    background-color: none;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    padding: 10px;
+    background: turquoise;
+    border-radius: 15px ;
+}
+
+.nav-links.open {
+    display: flex;
+    /* display: block; */
+}
+
+
+.nav .nav-links {
     margin-right: 0%;
 }
 
-.nav .links a {
-    color: white;
+.nav .nav-links a {
+    color: black;
     text-decoration: none;
     margin-right: 15px;
+    border-bottom: 1px solid black;
 }
 
-#butn7 {
-    color: white;
-    background-color: black;
-    border: 1px solid white;
-    margin-right: 20px;
-    height: 40px;
-    width: 90px;
-    border-radius: 10px;
+.menu-btn {
+    display: block;
+    color: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    background: none;
 }
 
 .banner {
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 60px);
     background-image: url('White\ Full\ Photo\ Diary\ Desktop\ Wallpaper.png');
     background-position: center;
     background-repeat: no-repeat;
