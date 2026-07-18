@@ -2,28 +2,31 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     /* padding: 24px; */
-    background: darkkhaki;
+    background: whitesmoke;
 }
 
 .app-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
-    width: 100%;
-    border-bottom: 1pxsolid black;
-    background-color: #0d9488;
-    
+    height: 80px;
+    background-color: darkkhaki;
+    padding: 10px 15px;
+
+}
+.app-head h1{
+    font-size: xx-large;
 }
 
 #loadBtn {
-    background: #0d9488;
+    background: black;
     color: #ffffff;
+    padding: 15px 25px;
     border: none;
-    padding: 12px 22px;
     border-radius: 8px;
     font-size: 15px;
     cursor: pointer;
+    margin-right: 45px;
 }
 
 .movie-list {
@@ -35,7 +38,7 @@ body {
 
 .movie-card {
     flex: 1 1 220px;
-    background: #ffffff;
+    background: wheat;
     border-radius: 10px;
     padding: 16px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
@@ -55,7 +58,7 @@ body {
 /* the status message */
 .status {
     padding: 10px;
-    color: #0d9488;
+    color: darkkhaki;
     font-weight: bold;
 }
 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Explorer</title>
+<link rel="stylesheet" href="MovieApp.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">My MovieApp</div>
+    <button class="menu-btn" id="menuBtn">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><button id="loadBtn">Load Movies</button></li>
+    </ul>
+</nav>
+
+<p id="status" class="status hidden"></p>
+
+<div id="movieList" class="movie-list"></div>
+
+<script src="MovieApp.js"></script>
+</body>
+</html>
