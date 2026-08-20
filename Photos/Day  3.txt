@@ -1,0 +1,15 @@
+Day  3
+Flexbox postioning And Respopnsive design 
+day 1 and 2 
+Q!1w many styling we can use ??
+1.inline Styling
+2.external styling
+3.internal or something 
+Q.2 what is box
+whenever use css should used 
+*{
+margin
+boarder
+bordersize 
+because page automatically set its padding margin etc
+height=100vh its a property who adjust the view of your screen accordingly
